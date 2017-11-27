@@ -1,0 +1,30 @@
+{
+  "name": "koa_js_crud_http_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --harmony app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-async-to-module-method": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "co": "latest",
+    "jest": "^21.2.1",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "supertest": "latest"
+  },
+  "dependencies": {
+    "fakerator": "^0.3.0",
+    "koa": "^2.4.1",
+    "koa-logger": "^3.1.0",
+    "koa-router": "latest",
+    "request-promise": "^4.2.2",
+    "expect": "latest"
+  }
+}
